@@ -5,6 +5,7 @@ import Search from "./components/search";
 import { Col, Container, Row } from "react-bootstrap";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         </Row>
       </Container>
       </header>
-
+      <Toaster />
     </div>
   );
 }
