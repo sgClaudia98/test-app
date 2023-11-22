@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>SEARCH</h1>
+        <h1>Weather Search</h1>
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto">
